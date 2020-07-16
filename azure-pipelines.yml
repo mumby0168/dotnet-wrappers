@@ -25,7 +25,18 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'setApiKey oy2fwpd6m24ubyj6kqkqpb7grgkzfo6enmzbclyjj2a46a'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    arguments: '$(Build.ArtifactStagingDirectory)/**/*.nupkg -Source https://api.nuget.org/v3/index.json'
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+
