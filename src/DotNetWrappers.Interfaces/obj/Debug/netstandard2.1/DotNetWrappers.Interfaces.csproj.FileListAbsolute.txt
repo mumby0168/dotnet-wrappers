@@ -1,8 +1,0 @@
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/bin/Debug/netstandard2.1/DotNetWrappers.Interfaces.deps.json
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/bin/Debug/netstandard2.1/DotNetWrappers.Interfaces.dll
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/bin/Debug/netstandard2.1/DotNetWrappers.Interfaces.pdb
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/obj/Debug/netstandard2.1/DotNetWrappers.Interfaces.csprojAssemblyReference.cache
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/obj/Debug/netstandard2.1/DotNetWrappers.Interfaces.AssemblyInfoInputs.cache
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/obj/Debug/netstandard2.1/DotNetWrappers.Interfaces.AssemblyInfo.cs
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/obj/Debug/netstandard2.1/DotNetWrappers.Interfaces.dll
-/Users/billy/dotnet-wrappers/src/DotNetWrappers.Interfaces/obj/Debug/netstandard2.1/DotNetWrappers.Interfaces.pdb
