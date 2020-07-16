@@ -32,7 +32,8 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    nuGetFeedType: external
     command: 'push'
-    arguments: '$(Build.ArtifactStagingDirectory)/**/*.nupkg -Source https://api.nuget.org/v3/index.json'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'external'
+    includeNuGetOrg: true
 
