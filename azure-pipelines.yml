@@ -16,6 +16,11 @@ steps:
   inputs:
     command: 'build'
     projects: 'dotnet-wrappers.sln'
+- task: NuGetCommand@2
+  inputs:
+    command: 'pack'
+    packagesToPack: 'src/DotNetWrappers/**.csproj'
+    versioningScheme: 'byBuildNumber'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
