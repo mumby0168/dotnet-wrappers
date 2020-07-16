@@ -1,0 +1,40 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'dotnet-wrappers.sln'
+- task: NuGetCommand@2
+  inputs:
+    command: 'pack'
+    packagesToPack: 'src/DotNetWrappers/**.csproj'
+    versioningScheme: 'byPrereleaseNumber'
+    majorVersion: '1'
+    minorVersion: '0'
+    patchVersion: '0'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'custom'
+    arguments: 'setApiKey oy2fwpd6m24ubyj6kqkqpb7grgkzfo6enmzbclyjj2a46a'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'external'
+    includeNuGetOrg: true
+    feedsToUse: 'config'
+
