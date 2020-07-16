@@ -1,0 +1,8 @@
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/bin/Debug/netstandard2.1/DotNetWrappers.deps.json
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/bin/Debug/netstandard2.1/DotNetWrappers.dll
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/bin/Debug/netstandard2.1/DotNetWrappers.pdb
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/obj/Debug/netstandard2.1/DotNetWrappers.csprojAssemblyReference.cache
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/obj/Debug/netstandard2.1/DotNetWrappers.AssemblyInfoInputs.cache
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/obj/Debug/netstandard2.1/DotNetWrappers.AssemblyInfo.cs
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/obj/Debug/netstandard2.1/DotNetWrappers.dll
+/Users/billy/dotnet-wrappers/src/DotNetWrappers/obj/Debug/netstandard2.1/DotNetWrappers.pdb

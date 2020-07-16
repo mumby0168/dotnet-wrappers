@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWrappers", "src\DotNetWrappers\DotNetWrappers.csproj", "{FCA5FB7B-FEE8-4E6A-9186-C1DB7101BE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetWrappers.Interfaces", "src\DotNetWrappers.Interfaces\DotNetWrappers.Interfaces.csproj", "{9A769689-8B1B-4B8D-9AD1-B4E19CC35033}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCA5FB7B-FEE8-4E6A-9186-C1DB7101BE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA5FB7B-FEE8-4E6A-9186-C1DB7101BE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA5FB7B-FEE8-4E6A-9186-C1DB7101BE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA5FB7B-FEE8-4E6A-9186-C1DB7101BE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A769689-8B1B-4B8D-9AD1-B4E19CC35033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A769689-8B1B-4B8D-9AD1-B4E19CC35033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A769689-8B1B-4B8D-9AD1-B4E19CC35033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A769689-8B1B-4B8D-9AD1-B4E19CC35033}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
