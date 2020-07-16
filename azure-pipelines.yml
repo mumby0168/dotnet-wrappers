@@ -20,7 +20,10 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: 'src/DotNetWrappers/**.csproj'
-    versioningScheme: 'byBuildNumber'
+    versioningScheme: 'byPrereleaseNumber'
+    majorVersion: '1'
+    minorVersion: '0'
+    patchVersion: '0'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
